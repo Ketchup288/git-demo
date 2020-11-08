@@ -2,7 +2,7 @@
 
 int main(){
     std::cout << "Hi" << "!" << std::endl;
-    int number = 2051;
+    int number = 2048;
     if (number <= 4096)
     {
         int temp_number_1 = number / 256;
