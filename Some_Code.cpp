@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main(){
-    std::cout << "Hello, " << "boys!" << std::endl;
+    std::cout << "Hi" << "!" << std::endl;
     int number = 2049;
     if (number <= 4096)
     {
@@ -10,8 +10,9 @@ int main(){
         int temp_number_3 = number - temp_number_2;
         if (temp_number_3 == 0){
             std::cout << "Your number is: " << temp_number_1 << std::endl;
+        }
         if (temp_number_3 >= 0) {
-            std::cout << "I can't divivde" << number << " on 256, change your number and try again!" << std::endl;
+            std::cout << "I can't divivde '" << number << "' on 256, change your number and try again!" << std::endl;
         }   
     }
     return 0;
